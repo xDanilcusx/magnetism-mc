@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "danilcus.magnetism.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "danilcus.magnetism.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "EnchantmentTargetCrossbowMixin",
+    "MixinCrossbowItem"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
